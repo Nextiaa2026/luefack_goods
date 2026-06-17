@@ -1,16 +1,14 @@
 export const images = {
-  heroPort: "/images/hero-port.jpg",
-  ctaWarehouse: "/images/cta-warehouse.jpg",
-  bandContainers: "/images/band-containers.jpg",
-  bandNetwork: "/images/band-network.jpg",
-  processScan: "/images/process-scan.jpg",
+  cargoPlane: "/images/cargo-plane.jpg",
+  cargoPlane2: "/images/cargo-plane-2.jpg",
+  ship1: "/images/ship-1.jpg",
+  ship2: "/images/ship-2.jpg",
+  ship3: "/images/ship-3.jpg",
   avatar1: "/images/avatar-1.jpg",
   avatar2: "/images/avatar-2.jpg",
   avatar3: "/images/avatar-3.jpg",
-  serviceAir: "/images/service-air.jpg",
-  serviceRoad: "/images/service-road.jpg",
-  serviceTrade: "/images/service-trade.jpg",
   aboutTeam: "/images/about-team.jpg",
+  processScan: "/images/process-scan.jpg",
 } as const;
 
 export const logos = {
@@ -20,12 +18,9 @@ export const logos = {
 } as const;
 
 export const heroSlides = [
-  { src: images.heroPort, alt: "Port maritime africain avec conteneurs et grues" },
-  { src: images.bandContainers, alt: "Conteneurs dans un port logistique" },
-  { src: images.serviceAir, alt: "Fret aérien et avion cargo" },
-  { src: images.serviceRoad, alt: "Transport routier de marchandises" },
-  { src: images.ctaWarehouse, alt: "Entrepôt logistique et gestion des stocks" },
-  { src: images.processScan, alt: "Agent scannant un colis en entrepôt" },
-  { src: images.bandNetwork, alt: "Réseau logistique international" },
-  { src: images.serviceTrade, alt: "Commerce général et distribution" },
+  { src: images.ship1, alt: "Port maritime avec navires cargo et remorqueurs" },
+  { src: images.cargoPlane, alt: "Avion cargo KLM en vol" },
+  { src: images.ship2, alt: "Porte-conteneurs vu du ciel sur l'océan" },
+  { src: images.cargoPlane2, alt: "Chargement de fret aérien sur le tarmac" },
+  { src: images.ship3, alt: "Navire porte-conteneurs en mer" },
 ] as const;

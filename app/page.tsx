@@ -31,26 +31,26 @@ export const metadata: Metadata = {
     title: "LEUFACK GOODS SARL | Logistique & Import-Export",
     description:
       "Connecter les marchés, rapprocher les mondes. Solutions logistiques et commerciales en Afrique.",
-    images: [images.heroPort],
+    images: [images.ship1],
   },
 };
 
 const services = [
   {
     icon: Ship,
-    img: images.heroPort,
+    img: images.ship1,
     title: "Logistique",
     desc: "Transport maritime et gestion complète de la chaîne d'approvisionnement.",
   },
   {
     icon: Plane,
-    img: images.serviceAir,
+    img: images.cargoPlane,
     title: "Import - Export",
     desc: "Dédouanement, fret aérien et acheminement de vos marchandises.",
   },
   {
     icon: Boxes,
-    img: images.serviceTrade,
+    img: images.cargoPlane2,
     title: "Commerce Général",
     desc: "Approvisionnement, distribution et négoce de biens variés.",
   },
@@ -124,8 +124,8 @@ export default function HomePage() {
 
       <section className="relative isolate min-h-[50vh] overflow-hidden">
         <Image
-          src={images.bandContainers}
-          alt="Conteneurs soulevés par une grue dans un port africain au crépuscule"
+          src={images.ship2}
+          alt="Porte-conteneurs vu du ciel sur l'océan"
           fill
           className="object-cover"
           sizes="100vw"
@@ -239,8 +239,8 @@ export default function HomePage() {
           <Reveal className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-[var(--shadow-brand)]">
               <Image
-                src={images.ctaWarehouse}
-                alt="Responsable d'entrepôt africaine gérant les stocks"
+                src={images.cargoPlane2}
+                alt="Chargement de fret aérien sur le tarmac"
                 width={1280}
                 height={720}
                 className="w-full object-cover"
@@ -282,8 +282,8 @@ export default function HomePage() {
 
       <section className="relative isolate min-h-[360px] overflow-hidden py-16 sm:min-h-[420px] sm:py-24 md:py-32">
         <Image
-          src={images.bandNetwork}
-          alt="L'Afrique connectée au monde par un réseau logistique"
+          src={images.ship3}
+          alt="Navire porte-conteneurs en mer"
           fill
           className="object-cover"
           sizes="100vw"
@@ -382,8 +382,8 @@ export default function HomePage() {
       {/* 100vh full-bleed image — above final CTA */}
       <section className="relative isolate min-h-screen overflow-hidden">
         <Image
-          src={images.serviceRoad}
-          alt="Camion de transport sur route logistique"
+          src={images.ship1}
+          alt="Port maritime avec navires cargo"
           fill
           className="object-cover"
           sizes="100vw"

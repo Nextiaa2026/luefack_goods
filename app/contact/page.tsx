@@ -31,7 +31,7 @@ export default function ContactPage() {
         label="Contact"
         title="Parlons de votre projet"
         description="Une question, un envoi, un devis ? Notre équipe est à votre écoute."
-        image={images.bandNetwork}
+        image={images.ship1}
       />
 
       <section className="container-px mx-auto grid max-w-6xl gap-10 section-py lg:grid-cols-[1fr_1.1fr] lg:gap-12">
@@ -39,8 +39,8 @@ export default function ContactPage() {
           <Reveal>
             <div className="relative mb-8 aspect-video overflow-hidden rounded-xl shadow-[var(--shadow-brand)] sm:rounded-2xl">
               <Image
-                src={images.ctaWarehouse}
-                alt="Entrepôt LEUFACK GOODS"
+                src={images.cargoPlane2}
+                alt="Chargement de fret aérien"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 480px"

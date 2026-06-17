@@ -24,27 +24,27 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nos Services | LEUFACK GOODS SARL",
     description: "Logistique, import-export et commerce général en Afrique et à l'international.",
-    images: [images.serviceAir],
+    images: [images.cargoPlane],
   },
 };
 
 const main = [
   {
-    img: images.serviceRoad,
+    img: images.ship3,
     icon: Truck,
     title: "Logistique & Transport",
     desc: "Transport routier, maritime et multimodal. Nous orchestrons toute votre chaîne d'approvisionnement, du port à votre porte.",
     points: ["Fret maritime & terrestre", "Suivi en temps réel", "Optimisation des itinéraires"],
   },
   {
-    img: images.serviceAir,
+    img: images.cargoPlane,
     icon: Plane,
     title: "Import - Export",
     desc: "De la commande à la livraison, nous gérons le fret aérien, le dédouanement et la conformité réglementaire de vos échanges.",
     points: ["Fret aérien express", "Dédouanement complet", "Documentation & conformité"],
   },
   {
-    img: images.serviceTrade,
+    img: images.cargoPlane2,
     icon: Boxes,
     title: "Commerce Général",
     desc: "Approvisionnement, négoce et distribution de biens variés pour connecter producteurs, grossistes et marchés locaux.",
@@ -66,7 +66,7 @@ export default function ServicesPage() {
         label="Nos services"
         title="Des services pensés pour faire circuler vos biens"
         description="Logistique, import-export et commerce général : une offre intégrée pour connecter vos marchandises aux marchés du monde entier."
-        image={images.serviceAir}
+        image={images.cargoPlane}
       />
 
       <section className="container-px mx-auto max-w-6xl space-y-12 section-py sm:space-y-16">
